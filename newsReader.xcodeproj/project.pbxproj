@@ -12,6 +12,12 @@
 		3817ED131DC682E60050045C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3817ED111DC682E60050045C /* Main.storyboard */; };
 		3817ED151DC682E60050045C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3817ED141DC682E60050045C /* Assets.xcassets */; };
 		3817ED181DC682E60050045C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3817ED161DC682E60050045C /* LaunchScreen.storyboard */; };
+		3817ED201DC684D30050045C /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3817ED1F1DC684D30050045C /* ArticleCell.swift */; };
+		3817ED221DC6856E0050045C /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3817ED211DC6856E0050045C /* Article.swift */; };
+		AC14C15C1E7C5F34003010C6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC14C15B1E7C5F34003010C6 /* WebViewController.swift */; };
+		AC14C1621E7C6917003010C6 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC14C1611E7C6917003010C6 /* MenuManager.swift */; };
+		AC4123581E7F358E00E82C74 /* BaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC4123571E7F358E00E82C74 /* BaseCell.xib */; };
+		AC41235A1E7F38E400E82C74 /* BaseViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4123591E7F38E400E82C74 /* BaseViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		3817ED141DC682E60050045C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3817ED171DC682E60050045C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3817ED191DC682E60050045C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3817ED1F1DC684D30050045C /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		3817ED211DC6856E0050045C /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		AC14C15B1E7C5F34003010C6 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		AC14C1611E7C6917003010C6 /* MenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		AC4123571E7F358E00E82C74 /* BaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCell.xib; sourceTree = "<group>"; };
+		AC4123591E7F38E400E82C74 /* BaseViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				3817ED141DC682E60050045C /* Assets.xcassets */,
 				3817ED161DC682E60050045C /* LaunchScreen.storyboard */,
 				3817ED191DC682E60050045C /* Info.plist */,
+				3817ED1F1DC684D30050045C /* ArticleCell.swift */,
+				3817ED211DC6856E0050045C /* Article.swift */,
+				AC14C15B1E7C5F34003010C6 /* WebViewController.swift */,
+				AC14C1611E7C6917003010C6 /* MenuManager.swift */,
+				AC4123571E7F358E00E82C74 /* BaseCell.xib */,
+				AC4123591E7F38E400E82C74 /* BaseViewCell.swift */,
 			);
 			path = newsReader;
 			sourceTree = "<group>";
@@ -91,11 +109,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Nunev;
 				TargetAttributes = {
 					3817ED091DC682E60050045C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WFGT6GW29Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4123581E7F358E00E82C74 /* BaseCell.xib in Resources */,
 				3817ED181DC682E60050045C /* LaunchScreen.storyboard in Resources */,
 				3817ED151DC682E60050045C /* Assets.xcassets in Resources */,
 				3817ED131DC682E60050045C /* Main.storyboard in Resources */,
@@ -136,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC14C1621E7C6917003010C6 /* MenuManager.swift in Sources */,
+				AC41235A1E7F38E400E82C74 /* BaseViewCell.swift in Sources */,
+				3817ED221DC6856E0050045C /* Article.swift in Sources */,
 				3817ED101DC682E60050045C /* ViewController.swift in Sources */,
 				3817ED0E1DC682E60050045C /* AppDelegate.swift in Sources */,
+				AC14C15C1E7C5F34003010C6 /* WebViewController.swift in Sources */,
+				3817ED201DC684D30050045C /* ArticleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +206,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +257,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -260,9 +287,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFGT6GW29Z;
 				INFOPLIST_FILE = newsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nunev.newsReader;
+				PRODUCT_BUNDLE_IDENTIFIER = metaxa.developer.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +300,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WFGT6GW29Z;
 				INFOPLIST_FILE = newsReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nunev.newsReader;
+				PRODUCT_BUNDLE_IDENTIFIER = metaxa.developer.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +328,7 @@
 				3817ED1E1DC682E60050045C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
